@@ -2,7 +2,7 @@
 
 ## Contents
 
-This repository contains a features: `otelcol`
+This repository contains features: `otelcol`
 
 ### `otelcol`
 

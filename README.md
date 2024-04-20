@@ -10,16 +10,16 @@ This repository contains features: `otelcol`
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/devcontainers/feature-starter/hello:1": {
-            "greeting": "Hello"
-        }
+        "ghcr.io/tranngoclam/otel-devcontainer-features/otelcol:1": {}
     }
 }
 ```
 
 ## Repo and Feature Structure
 
-Similar to the [`devcontainers/features`](https://github.com/devcontainers/features) repo, this repository has a `src` folder.  Each Feature has its own sub-folder, containing at least a `devcontainer-feature.json` and an entrypoint script `install.sh`. 
+Similar to the [`devcontainers/features`](https://github.com/devcontainers/features) repo, this repository has a `src`
+folder. Each Feature has its own sub-folder, containing at least a `devcontainer-feature.json` and an entrypoint
+script `install.sh`.
 
 ```
 ├── src

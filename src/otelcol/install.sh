@@ -1,4 +1,3 @@
-
 set -e
 
 . ./library_scripts.sh
@@ -10,14 +9,10 @@ set -e
 # of the script
 ensure_nanolayer nanolayer_location "v0.5.6"
 
-
 $nanolayer_location \
     install \
     devcontainer-feature \
-    "ghcr.io/devcontainers-contrib/features/gh-release:1.0.23" \
-    --option repo='open-telemetry/opentelemetry-collector-releases' --option binaryNames='otelcol' --option version="$VERSION"
-    
-
+    "ghcr.io/devcontainers-contrib/features/gh-release:1.0.24" \
+    --option repo='open-telemetry/opentelemetry-collector-releases' --option binaryNames='otelcol' --option version="$VERSION" --option assetRegex='^(?!.*(contrib|k8s))'
 
 echo 'Done!'
-

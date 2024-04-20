@@ -1,20 +1,20 @@
 {
-    "id": "otelcol",
-    "version": "1.0.0",
-    "name": "otelcol (via Github Releases)",
-    "documentationURL": "http://github.com/tranngoclam/otel-devcontainer-features/tree/main/src/otelcol",
-    "description": "OpenTelemetry Collector Core Distro.",
-    "options": {
-        "version": {
-            "default": "latest",
-            "description": "Select the version to install.",
-            "proposals": [
-                "latest"
-            ],
-            "type": "string"
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers-contrib/features/gh-release"
-    ]
+  "id": "otelcol",
+  "version": "1.0.0",
+  "name": "otelcol (via Github Releases)",
+  "documentationURL": "http://github.com/tranngoclam/otel-devcontainer-features/tree/main/src/otelcol",
+  "description": "OpenTelemetry Collector Core Distro.",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Select the version to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/gh-release"
+  ]
 }

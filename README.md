@@ -2,15 +2,16 @@
 
 ## Contents
 
-This repository contains features: `otelcol`
+This repository contains features: otelcol, otelcol-contrib
 
-### `otelcol`
+## Usage
 
 ```jsonc
 {
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
     "features": {
-        "ghcr.io/tranngoclam/otel-devcontainer-features/otelcol:1": {}
+        "ghcr.io/tranngoclam/otel-devcontainer-features/otelcol:1": {},
+        "ghcr.io/tranngoclam/otel-devcontainer-features/otelcol-contrib:1": {},
     }
 }
 ```

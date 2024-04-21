@@ -1,7 +1,7 @@
 {
-  "id": "otelcol",
+  "id": "otelcol-contrib",
   "version": "1.0.0",
-  "name": "otelcol (via Github Releases)",
+  "name": "otelcol-contrib (via Github Releases)",
   "documentationURL": "http://github.com/tranngoclam/otel-devcontainer-features/tree/main/src/otelcol-contrib",
   "description": "OpenTelemetry Collector Contrib Distro.",
   "options": {

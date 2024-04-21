@@ -1,12 +1,12 @@
 # otelcol (via Github Releases) (otelcol)
 
-OpenTelemetry Collector Contrib Distro.
+OpenTelemetry Collector Core Distro.
 
 ## Example DevContainer Usage
 
 ```json
 "features": {
-    "ghcr.io/tranngoclam/otel-devcontainer-features/otelcol-contrib:1": {}
+    "ghcr.io/tranngoclam/otel-devcontainer-features/otelcol:1": {}
 }
 ```
 

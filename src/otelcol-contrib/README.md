@@ -1,8 +1,9 @@
+
 # otelcol-contrib (via Github Releases) (otelcol-contrib)
 
 OpenTelemetry Collector Contrib Distro.
 
-## Example DevContainer Usage
+## Example Usage
 
 ```json
 "features": {
@@ -15,3 +16,9 @@ OpenTelemetry Collector Contrib Distro.
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | version | Select the version to install. | string | latest |
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/tranngoclam/otel-devcontainer-features/blob/main/src/otelcol-contrib/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
